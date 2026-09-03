@@ -1,0 +1,40 @@
+@media (pointer: coarse) {
+  .map-frame .node-port {
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    border: 0;
+    background: transparent !important;
+    transform: translateY(-50%);
+    z-index: 20;
+  }
+
+  .map-frame .node-port.in { left: -16px; }
+  .map-frame .node-port.out { right: -16px; }
+
+  .map-frame .node-port::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50%, -50%);
+    border: 2px solid #0f1216;
+    border-radius: 50%;
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+
+  .map-frame .project-node .node-port::before { background: #a8c84d; }
+  .map-frame .app-node .node-port::before { background: #65b8d7; }
+
+  .map-frame .node-port.is-connection-source::before {
+    background: var(--accent) !important;
+    transform: translate(-50%, -50%) scale(1.28);
+    box-shadow: 0 0 0 7px rgba(215,255,99,.16), 0 0 18px rgba(215,255,99,.45);
+  }
+
+  .map-frame .node-port:active::before {
+    transform: translate(-50%, -50%) scale(1.18);
+  }
+}
