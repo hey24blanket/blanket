@@ -107,6 +107,12 @@
 .app-grid.is-list-view .rating-stars button { width: 21px; height: 22px; font-size: 16px; }
 .app-grid.is-list-view .card-footer { margin-top: 5px; }
 
+/* Rating filtering must win over list-view display rules. */
+.app-grid .app-card[hidden],
+.app-grid.is-list-view .app-card[hidden] {
+  display: none !important;
+}
+
 @media (max-width: 820px) {
   .rating-filter-bar { margin-top: -5px; }
   .rating-stars button { width: 28px; height: 30px; font-size: 20px; }
