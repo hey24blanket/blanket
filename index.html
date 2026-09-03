@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./enhancements.css" />
   <link rel="stylesheet" href="./ratings.css" />
   <link rel="stylesheet" href="./mobile-connect-fix.css" />
+  <link rel="stylesheet" href="./compact-ui.css" />
 </head>
 <body>
   <div class="app-shell">
@@ -22,35 +23,32 @@
         </div>
         <div>
           <h1>Blanket</h1>
-          <p>apps & project map</p>
         </div>
       </div>
 
       <nav class="view-tabs" aria-label="보기 전환">
         <button class="tab-button is-active" data-view="apps">Apps</button>
-        <button class="tab-button" data-view="map">Project Map</button>
+        <button class="tab-button" data-view="map">Map</button>
       </nav>
 
       <div class="top-actions">
         <button class="button ghost" id="loadGithubBtn" title="GitHub에 저장된 상태 불러오기">불러오기</button>
-        <button class="button primary" id="saveGithubBtn" title="현재 상태를 GitHub에 저장">GitHub 저장</button>
+        <button class="button primary" id="saveGithubBtn" title="현재 상태를 GitHub에 저장">저장</button>
       </div>
     </header>
 
     <main>
       <section id="appsView" class="view is-active">
         <div class="section-head">
-          <div>
-            <div class="eyebrow">MY WEB APPS</div>
-            <h2>앱 대시보드</h2>
-            <p>실제 화면을 한눈에 보고, 필요한 앱으로 바로 이동합니다.</p>
+          <div class="dashboard-title-wrap">
+            <h2>Dashboard</h2>
           </div>
           <div class="section-actions">
             <label class="search-box">
               <span>⌕</span>
               <input id="appSearch" type="search" placeholder="앱 검색" autocomplete="off" />
             </label>
-            <button class="button primary" id="addAppBtn">+ 주소 추가</button>
+            <button class="button primary" id="addAppBtn">+ 앱</button>
           </div>
         </div>
 
@@ -73,11 +71,10 @@
         <div class="map-toolbar">
           <div class="map-toolbar-left">
             <div>
-              <div class="eyebrow">BLANKET GRAPH</div>
               <h2>Project Map</h2>
             </div>
             <div class="toolbar-divider"></div>
-            <button class="button secondary" id="addProjectBtn">+ 프로젝트 노드</button>
+            <button class="button secondary" id="addProjectBtn">+ 프로젝트</button>
             <button class="button secondary" id="arrangeMapBtn">자동 정렬</button>
           </div>
           <div class="map-help">
