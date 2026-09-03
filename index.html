@@ -1,1 +1,160 @@
-s
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f1115" />
+  <title>Blanket — App Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div>
+          <h1>Blanket</h1>
+          <p>apps & project map</p>
+        </div>
+      </div>
+
+      <nav class="view-tabs" aria-label="보기 전환">
+        <button class="tab-button is-active" data-view="apps">Apps</button>
+        <button class="tab-button" data-view="map">Project Map</button>
+      </nav>
+
+      <div class="top-actions">
+        <button class="button ghost" id="loadGithubBtn" title="GitHub에 저장된 상태 불러오기">불러오기</button>
+        <button class="button primary" id="saveGithubBtn" title="현재 상태를 GitHub에 저장">GitHub 저장</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="appsView" class="view is-active">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">MY WEB APPS</div>
+            <h2>앱 대시보드</h2>
+            <p>실제 화면을 한눈에 보고, 필요한 앱으로 바로 이동합니다.</p>
+          </div>
+          <div class="section-actions">
+            <label class="search-box">
+              <span>⌕</span>
+              <input id="appSearch" type="search" placeholder="앱 검색" autocomplete="off" />
+            </label>
+            <button class="button primary" id="addAppBtn">+ 주소 추가</button>
+          </div>
+        </div>
+
+        <div class="stats-strip">
+          <div><strong id="appCount">0</strong><span>Apps</span></div>
+          <div><strong id="projectCount">0</strong><span>Projects</span></div>
+          <div><strong id="connectionCount">0</strong><span>Connections</span></div>
+          <div class="autosave-state"><span class="status-dot"></span><strong>Auto saved</strong><span>browser</span></div>
+        </div>
+
+        <div id="appGrid" class="app-grid" aria-live="polite"></div>
+        <div id="emptyApps" class="empty-state" hidden>
+          <div class="empty-icon">＋</div>
+          <h3>등록된 앱이 없습니다</h3>
+          <p>웹주소를 추가하면 실제 화면이 카드 안에 썸네일로 표시됩니다.</p>
+        </div>
+      </section>
+
+      <section id="mapView" class="view map-view">
+        <div class="map-toolbar">
+          <div class="map-toolbar-left">
+            <div>
+              <div class="eyebrow">BLANKET GRAPH</div>
+              <h2>Project Map</h2>
+            </div>
+            <div class="toolbar-divider"></div>
+            <button class="button secondary" id="addProjectBtn">+ 프로젝트 노드</button>
+            <button class="button secondary" id="arrangeMapBtn">자동 정렬</button>
+          </div>
+          <div class="map-help">
+            <span><i class="help-port"></i> 포트 드래그로 연결</span>
+            <span>노드 드래그로 이동</span>
+            <span>빈 공간 드래그로 화면 이동 · 휠 확대/축소</span>
+          </div>
+        </div>
+
+        <div class="map-frame" id="mapFrame">
+          <div class="map-world" id="mapWorld">
+            <svg class="edge-layer" id="edgeLayer" width="5000" height="3200" viewBox="0 0 5000 3200" aria-hidden="true"></svg>
+            <div class="node-layer" id="nodeLayer"></div>
+          </div>
+          <div class="map-corner-tools">
+            <button id="zoomOutBtn" aria-label="축소">−</button>
+            <button id="zoomResetBtn" aria-label="배율 초기화">100%</button>
+            <button id="zoomInBtn" aria-label="확대">＋</button>
+          </div>
+          <div class="map-mini-tip">연결선을 클릭한 뒤 <kbd>Delete</kbd>로 삭제할 수 있습니다.</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="appDialog" class="modal">
+    <form method="dialog" id="appForm">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow" id="appDialogEyebrow">NEW APP</div>
+          <h3 id="appDialogTitle">앱 추가</h3>
+        </div>
+        <button type="button" class="icon-button" data-close-dialog="appDialog" aria-label="닫기">×</button>
+      </div>
+      <input type="hidden" id="appIdInput" />
+      <label class="field">
+        <span>웹주소 <b>*</b></span>
+        <input id="appUrlInput" type="url" required placeholder="https://example.vercel.app/" />
+      </label>
+      <label class="field">
+        <span>앱 이름 <small>비워둘 수 있음</small></span>
+        <input id="appNameInput" type="text" maxlength="60" placeholder="예: White Maker" />
+      </label>
+      <label class="field">
+        <span>짧은 설명 <small>비워둘 수 있음</small></span>
+        <textarea id="appDescriptionInput" rows="3" maxlength="180" placeholder="이 앱이 무엇을 하는지 한 줄로"></textarea>
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="button ghost" data-close-dialog="appDialog">취소</button>
+        <button class="button primary" value="default">저장</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="projectDialog" class="modal">
+    <form method="dialog" id="projectForm">
+      <div class="modal-head">
+        <div>
+          <div class="eyebrow">NEW PROJECT</div>
+          <h3>프로젝트 노드 추가</h3>
+        </div>
+        <button type="button" class="icon-button" data-close-dialog="projectDialog" aria-label="닫기">×</button>
+      </div>
+      <label class="field">
+        <span>프로젝트 이름 <b>*</b></span>
+        <input id="projectNameInput" type="text" required maxlength="60" placeholder="예: Korean Learning" />
+      </label>
+      <label class="field">
+        <span>메모 <small>비워둘 수 있음</small></span>
+        <textarea id="projectDescriptionInput" rows="3" maxlength="180" placeholder="프로젝트의 목표나 묶이는 기능"></textarea>
+      </label>
+      <div class="modal-actions">
+        <button type="button" class="button ghost" data-close-dialog="projectDialog">취소</button>
+        <button class="button primary" value="default">추가</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
