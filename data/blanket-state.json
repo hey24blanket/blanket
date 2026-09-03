@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "apps": [
+    { "id": "app-desk", "name": "Desk App", "description": "", "url": "https://desk-app-inky.vercel.app/" },
+    { "id": "app-white-maker", "name": "White Maker", "description": "", "url": "https://white-maker.vercel.app/" },
+    { "id": "app-hangul-papa", "name": "Hangul Papa", "description": "", "url": "https://hangul-papa.vercel.app/" },
+    { "id": "app-saju-grap", "name": "Saju Grap", "description": "", "url": "https://saju-grap.vercel.app/" },
+    { "id": "app-bloom-rag", "name": "Bloom RAG Chat", "description": "", "url": "https://bloom-rag-chat.vercel.app/" },
+    { "id": "app-shuttle-mate", "name": "Shuttle Mate", "description": "", "url": "https://shuttle-mate.vercel.app/" },
+    { "id": "app-campingsite", "name": "Camping Site", "description": "", "url": "https://hey24blanket.github.io/campingsite/" },
+    { "id": "app-camping-menu", "name": "Camping Menu", "description": "", "url": "https://hey24blanket.github.io/camping-menu/" }
+  ],
+  "graph": {
+    "nodes": [
+      { "id": "node-app-desk", "type": "app", "appId": "app-desk", "title": "Desk App", "description": "", "x": 260, "y": 220 },
+      { "id": "node-app-white-maker", "type": "app", "appId": "app-white-maker", "title": "White Maker", "description": "", "x": 620, "y": 220 },
+      { "id": "node-app-hangul-papa", "type": "app", "appId": "app-hangul-papa", "title": "Hangul Papa", "description": "", "x": 980, "y": 220 },
+      { "id": "node-app-saju-grap", "type": "app", "appId": "app-saju-grap", "title": "Saju Grap", "description": "", "x": 1340, "y": 220 },
+      { "id": "node-app-bloom-rag", "type": "app", "appId": "app-bloom-rag", "title": "Bloom RAG Chat", "description": "", "x": 260, "y": 450 },
+      { "id": "node-app-shuttle-mate", "type": "app", "appId": "app-shuttle-mate", "title": "Shuttle Mate", "description": "", "x": 620, "y": 450 },
+      { "id": "node-app-campingsite", "type": "app", "appId": "app-campingsite", "title": "Camping Site", "description": "", "x": 980, "y": 450 },
+      { "id": "node-app-camping-menu", "type": "app", "appId": "app-camping-menu", "title": "Camping Menu", "description": "", "x": 1340, "y": 450 }
+    ],
+    "edges": [],
+    "viewport": { "x": 0, "y": 0, "scale": 1 }
+  },
+  "updatedAt": "2026-09-03T00:00:00.000Z"
+}
