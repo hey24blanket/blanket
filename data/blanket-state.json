@@ -1,28 +1,227 @@
 {
   "version": 1,
   "apps": [
-    { "id": "app-desk", "name": "Desk App", "description": "", "url": "https://desk-app-inky.vercel.app/" },
-    { "id": "app-white-maker", "name": "White Maker", "description": "", "url": "https://white-maker.vercel.app/" },
-    { "id": "app-hangul-papa", "name": "Hangul Papa", "description": "", "url": "https://hangul-papa.vercel.app/" },
-    { "id": "app-saju-grap", "name": "Saju Grap", "description": "", "url": "https://saju-grap.vercel.app/" },
-    { "id": "app-bloom-rag", "name": "Bloom RAG Chat", "description": "", "url": "https://bloom-rag-chat.vercel.app/" },
-    { "id": "app-shuttle-mate", "name": "Shuttle Mate", "description": "", "url": "https://shuttle-mate.vercel.app/" },
-    { "id": "app-campingsite", "name": "Camping Site", "description": "", "url": "https://hey24blanket.github.io/campingsite/" },
-    { "id": "app-camping-menu", "name": "Camping Menu", "description": "", "url": "https://hey24blanket.github.io/camping-menu/" }
+    {
+      "id": "app-desk",
+      "url": "https://desk-app-inky.vercel.app/",
+      "name": "2___Desk",
+      "description": "토론 & 프로토타입 - To 코드마스터",
+      "rating": 2
+    },
+    {
+      "id": "app-white-maker",
+      "url": "https://white-maker.vercel.app/",
+      "name": "1___White Maker",
+      "description": "채팅 - 아이디어 to 백서",
+      "rating": 2
+    },
+    {
+      "id": "app-hangul-papa",
+      "name": "Hangul Papa",
+      "description": "",
+      "url": "https://hangul-papa.vercel.app/",
+      "rating": 1
+    },
+    {
+      "id": "app-saju-grap",
+      "name": "Saju Grap",
+      "description": "",
+      "url": "https://saju-grap.vercel.app/",
+      "rating": 1
+    },
+    {
+      "id": "app-bloom-rag",
+      "name": "Bloom RAG Chat",
+      "description": "",
+      "url": "https://bloom-rag-chat.vercel.app/",
+      "rating": 0
+    },
+    {
+      "id": "app-shuttle-mate",
+      "name": "Shuttle Mate",
+      "description": "",
+      "url": "https://shuttle-mate.vercel.app/",
+      "rating": 0
+    },
+    {
+      "id": "app-campingsite",
+      "name": "Camping Site",
+      "description": "",
+      "url": "https://hey24blanket.github.io/campingsite/",
+      "rating": 0
+    },
+    {
+      "id": "app-camping-menu",
+      "name": "Camping Menu",
+      "description": "",
+      "url": "https://hey24blanket.github.io/camping-menu/",
+      "rating": 0
+    },
+    {
+      "id": "app-mtma8lo1-fj1ak",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v2/",
+      "name": "한글파파 v2 proto",
+      "description": "",
+      "rating": 2
+    },
+    {
+      "id": "app-mtma9vs6-hge68",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v3/",
+      "name": "한글파파 v3 proto",
+      "description": "",
+      "rating": 2
+    },
+    {
+      "id": "app-mtmmm2dk-3t9ma",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v4/",
+      "name": "한글파파 v4 proto",
+      "description": "",
+      "rating": 2
+    }
   ],
   "graph": {
     "nodes": [
-      { "id": "node-app-desk", "type": "app", "appId": "app-desk", "title": "Desk App", "description": "", "x": 260, "y": 220 },
-      { "id": "node-app-white-maker", "type": "app", "appId": "app-white-maker", "title": "White Maker", "description": "", "x": 620, "y": 220 },
-      { "id": "node-app-hangul-papa", "type": "app", "appId": "app-hangul-papa", "title": "Hangul Papa", "description": "", "x": 980, "y": 220 },
-      { "id": "node-app-saju-grap", "type": "app", "appId": "app-saju-grap", "title": "Saju Grap", "description": "", "x": 1340, "y": 220 },
-      { "id": "node-app-bloom-rag", "type": "app", "appId": "app-bloom-rag", "title": "Bloom RAG Chat", "description": "", "x": 260, "y": 450 },
-      { "id": "node-app-shuttle-mate", "type": "app", "appId": "app-shuttle-mate", "title": "Shuttle Mate", "description": "", "x": 620, "y": 450 },
-      { "id": "node-app-campingsite", "type": "app", "appId": "app-campingsite", "title": "Camping Site", "description": "", "x": 980, "y": 450 },
-      { "id": "node-app-camping-menu", "type": "app", "appId": "app-camping-menu", "title": "Camping Menu", "description": "", "x": 1340, "y": 450 }
+      {
+        "id": "node-app-desk",
+        "type": "app",
+        "appId": "app-desk",
+        "title": "Desk App",
+        "description": "",
+        "x": 150,
+        "y": 900
+      },
+      {
+        "id": "node-app-white-maker",
+        "type": "app",
+        "appId": "app-white-maker",
+        "title": "White Maker",
+        "description": "",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "node-app-hangul-papa",
+        "type": "app",
+        "appId": "app-hangul-papa",
+        "title": "Hangul Papa",
+        "description": "",
+        "x": 849.1830527359647,
+        "y": 1759.5984390811032
+      },
+      {
+        "id": "node-app-saju-grap",
+        "type": "app",
+        "appId": "app-saju-grap",
+        "title": "Saju Grap",
+        "description": "",
+        "x": 1320,
+        "y": 900
+      },
+      {
+        "id": "node-app-bloom-rag",
+        "type": "app",
+        "appId": "app-bloom-rag",
+        "title": "Bloom RAG Chat",
+        "description": "",
+        "x": 150,
+        "y": 1120
+      },
+      {
+        "id": "node-app-shuttle-mate",
+        "type": "app",
+        "appId": "app-shuttle-mate",
+        "title": "Shuttle Mate",
+        "description": "",
+        "x": 830.074641586562,
+        "y": 1530.0093491656214
+      },
+      {
+        "id": "node-app-campingsite",
+        "type": "app",
+        "appId": "app-campingsite",
+        "title": "Camping Site",
+        "description": "",
+        "x": 886.7677216866182,
+        "y": 1327.7938538288354
+      },
+      {
+        "id": "node-app-camping-menu",
+        "type": "app",
+        "appId": "app-camping-menu",
+        "title": "Camping Menu",
+        "description": "",
+        "x": 1320,
+        "y": 1120
+      },
+      {
+        "id": "project-mtl2iggq-9gji1",
+        "type": "project",
+        "title": "KnowledgeFalm",
+        "description": "방대한 지식 RAG 검색 앱.\n한번에 jsonl로 firebase업로드까지",
+        "x": 516.2557947639681,
+        "y": 1369.5977144355072
+      },
+      {
+        "id": "node-app-mtma8lo1-fj1ak",
+        "type": "app",
+        "appId": "app-mtma8lo1-fj1ak",
+        "title": "한글파파 v2 proto",
+        "description": "",
+        "x": 260,
+        "y": 680
+      },
+      {
+        "id": "node-app-mtma9vs6-hge68",
+        "type": "app",
+        "appId": "app-mtma9vs6-hge68",
+        "title": "한글파파 v3 proto",
+        "description": "",
+        "x": 620,
+        "y": 680
+      },
+      {
+        "id": "node-app-mtmmm2dk-3t9ma",
+        "type": "app",
+        "appId": "app-mtmmm2dk-3t9ma",
+        "title": "한글파파 v4 proto",
+        "description": "",
+        "x": 980,
+        "y": 680
+      }
     ],
-    "edges": [],
-    "viewport": { "x": 0, "y": 0, "scale": 1 }
+    "edges": [
+      {
+        "id": "edge-mtmp1ccb-euoku",
+        "from": "project-mtl2iggq-9gji1",
+        "to": "node-app-campingsite",
+        "fromPort": "out",
+        "toPort": "in"
+      },
+      {
+        "id": "edge-mtmp1evm-lvjyt",
+        "from": "project-mtl2iggq-9gji1",
+        "to": "node-app-shuttle-mate",
+        "fromPort": "out",
+        "toPort": "in"
+      },
+      {
+        "id": "edge-mtmp1jmx-lrqf1",
+        "from": "project-mtl2iggq-9gji1",
+        "to": "node-app-hangul-papa",
+        "fromPort": "out",
+        "toPort": "in"
+      }
+    ],
+    "viewport": {
+      "x": -155.92739208016803,
+      "y": -189.4202567066336,
+      "scale": 0.40833019703387696
+    }
   },
-  "updatedAt": "2026-09-03T00:00:00.000Z"
+  "updatedAt": "2026-09-04T08:30:37.218Z",
+  "syncMeta": {
+    "initialized": true,
+    "savedAt": "2026-09-04T11:11:18.519Z",
+    "clientMode": "manual"
+  }
 }
