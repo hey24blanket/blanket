@@ -48,7 +48,6 @@
     window.addEventListener('pagehide', () => { leftBlanket = true; }, { once: true });
 
     if (typeof showToast === 'function') showToast('Safari 앱 열기를 시도합니다…');
-
     window.location.href = safariUrl;
 
     window.setTimeout(() => {
@@ -63,7 +62,7 @@
   const decorate = () => {
     if (!isIOS || !isStandalone) return;
     const grid = document.getElementById('appGrid');
-    if (!grid || !window.state?.apps) return;
+    if (!grid || typeof state === 'undefined' || !Array.isArray(state.apps)) return;
 
     const card = grid.querySelector(`.app-card[data-app-id="${TEST_APP_ID}"]`);
     if (!card || card.querySelector('.safari-test-button')) return;
