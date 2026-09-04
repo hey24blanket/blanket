@@ -129,10 +129,74 @@
   #appsView { padding-top: 12px; }
   .section-head h2 { margin-bottom: 8px; font-size: 16px; }
   .section-actions { grid-template-columns: minmax(0, 1fr) auto auto; }
-  .search-box input { font-size: 11px; }
+  .search-box input { font-size: 16px; }
   .app-layout-toggle { width: auto; order: initial; }
   .layout-toggle-button { padding: 0 6px; }
   #addAppBtn { order: initial; }
   .rating-filter-options { width: 100%; }
   .rating-filter-bar { margin-top: 8px; }
+}
+
+/* iOS Safari: avoid focus zoom while preserving normal page pinch zoom. */
+html { -webkit-text-size-adjust: 100%; }
+@media (max-width: 820px) {
+  input,
+  textarea,
+  select,
+  [contenteditable="true"] {
+    font-size: 16px !important;
+  }
+}
+
+/* App card reorder interaction. */
+.app-card {
+  position: relative;
+  cursor: grab;
+}
+.app-card:active { cursor: grabbing; }
+.app-card.is-reorder-source {
+  opacity: .24;
+  transform: scale(.985);
+}
+.app-reorder-ghost {
+  position: fixed !important;
+  z-index: 10000 !important;
+  pointer-events: none !important;
+  margin: 0 !important;
+  opacity: .94;
+  transform: scale(1.015) rotate(.35deg);
+  box-shadow: 0 26px 70px rgba(0,0,0,.55) !important;
+  border-color: rgba(215,255,99,.5) !important;
+  transition: none !important;
+}
+.app-card.is-reorder-before::before,
+.app-card.is-reorder-after::after {
+  content: "";
+  position: absolute;
+  z-index: 40;
+  left: 8px;
+  right: 8px;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(215,255,99,.12);
+}
+.app-card.is-reorder-before::before { top: -6px; }
+.app-card.is-reorder-after::after { bottom: -6px; }
+body.is-app-reordering {
+  cursor: grabbing;
+  user-select: none;
+  -webkit-user-select: none;
+}
+body.is-app-reordering .app-card { cursor: grabbing; }
+
+@media (pointer: coarse) {
+  .app-card .card-body {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  body.is-app-reordering {
+    overflow: hidden;
+    touch-action: none;
+  }
 }
