@@ -1,7 +1,7 @@
 const REPO = process.env.GITHUB_REPO || 'hey24blanket/blanket';
 const STATE_PATH = process.env.GITHUB_STATE_PATH || 'data/blanket-state.json';
 const STATE_BRANCH = process.env.GITHUB_STATE_BRANCH || 'blanket-state';
-const TOKEN = process.env.GITHUB_TOKEN;
+const TOKEN = process.env.GITHUB_TOKEN || process.env.desk_GITHUB_TOKEN;
 const API = 'https://api.github.com';
 
 function send(res, status, payload) {
@@ -52,7 +52,7 @@ function timeOf(value) {
 module.exports = async function handler(req, res) {
   if (!TOKEN) {
     return send(res, 503, {
-      error: 'Vercel 환경변수 GITHUB_TOKEN이 아직 없습니다. 로컬 자동저장은 정상 작동합니다.'
+      error: 'Vercel 환경변수 GITHUB_TOKEN 또는 desk_GITHUB_TOKEN이 아직 없습니다. 로컬 자동저장은 정상 작동합니다.'
     });
   }
 
