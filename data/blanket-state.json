@@ -77,6 +77,13 @@
       "name": "한글파파 v4 proto",
       "description": "",
       "rating": 2
+    },
+    {
+      "id": "app-mtuspoef-rex5s",
+      "url": "https://character-state-space.vercel.app/",
+      "name": "CSS",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -187,6 +194,15 @@
         "description": "",
         "x": 980,
         "y": 680
+      },
+      {
+        "id": "node-app-mtuspoef-rex5s",
+        "type": "app",
+        "appId": "app-mtuspoef-rex5s",
+        "title": "CSS",
+        "description": "",
+        "x": 1340,
+        "y": 680
       }
     ],
     "edges": [
@@ -218,10 +234,10 @@
       "scale": 0.40833019703387696
     }
   },
-  "updatedAt": "2026-09-04T08:30:37.218Z",
+  "updatedAt": "2026-09-10T00:35:10.407Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-04T11:11:18.519Z",
-    "clientMode": "manual"
+    "savedAt": "2026-09-10T00:35:14.090Z",
+    "clientMode": "standalone"
   }
 }
