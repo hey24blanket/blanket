@@ -38,9 +38,9 @@
     },
     {
       "id": "app-shuttle-mate",
+      "url": "https://shuttle-mate.vercel.app/",
       "name": "Shuttle Mate",
       "description": "",
-      "url": "https://shuttle-mate.vercel.app/",
       "rating": 4
     },
     {
@@ -234,10 +234,10 @@
       "scale": 0.40833019703387696
     }
   },
-  "updatedAt": "2026-09-13T04:43:35.480Z",
+  "updatedAt": "2026-09-13T11:38:19.243Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-13T04:43:37.154Z",
+    "savedAt": "2026-09-13T11:38:21.053Z",
     "clientMode": "standalone"
   }
 }
