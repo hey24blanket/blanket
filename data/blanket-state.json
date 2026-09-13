@@ -41,7 +41,7 @@
       "name": "Shuttle Mate",
       "description": "",
       "url": "https://shuttle-mate.vercel.app/",
-      "rating": 0
+      "rating": 4
     },
     {
       "id": "app-campingsite",
@@ -234,10 +234,10 @@
       "scale": 0.40833019703387696
     }
   },
-  "updatedAt": "2026-09-10T00:35:19.713Z",
+  "updatedAt": "2026-09-13T04:43:35.480Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-10T00:35:23.491Z",
+    "savedAt": "2026-09-13T04:43:37.154Z",
     "clientMode": "standalone"
   }
 }
