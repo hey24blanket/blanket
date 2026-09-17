@@ -91,6 +91,13 @@
       "name": "CSS",
       "description": "",
       "rating": 2
+    },
+    {
+      "id": "app-mu4yogsr-9rnwk",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v5-subscriber/",
+      "name": "한글파파 사용자 v5",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -211,6 +218,15 @@
         "description": "",
         "x": 260,
         "y": 910
+      },
+      {
+        "id": "node-app-mu4yogsr-9rnwk",
+        "type": "app",
+        "appId": "app-mu4yogsr-9rnwk",
+        "title": "한글파파 사용자 v5",
+        "description": "",
+        "x": 620,
+        "y": 910
       }
     ],
     "edges": [],
@@ -220,11 +236,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:19:22.389Z",
+  "updatedAt": "2026-09-17T03:19:55.386Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:19:22.389Z",
+    "savedAt": "2026-09-17T03:19:55.386Z",
     "clientMode": "browser",
-    "revision": 2
+    "revision": 3
   }
 }
