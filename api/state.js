@@ -76,6 +76,7 @@ module.exports = async function handler(req, res) {
 
       const incoming = body?.state && body.state.graph ? body.state : body;
       const force = body?.force === true;
+      const expectedSha = body?.expectedSha || null;
       const clientMode = body?.clientMode || 'manual';
 
       if (!incoming || !Array.isArray(incoming.apps) || !incoming.graph) {
@@ -92,31 +93,44 @@ module.exports = async function handler(req, res) {
         if (error.status !== 404) throw error;
       }
 
+      if (!force && expectedSha && sha && expectedSha !== sha) {
+        return send(res, 409, {
+          error: '다른 화면에서 서버 데이터가 먼저 변경되었습니다.',
+          state: currentState,
+          sha,
+          branch: STATE_BRANCH
+        });
+      }
+
       if (
         !force &&
+        !expectedSha &&
         currentState?.syncMeta?.initialized === true &&
         timeOf(currentState.updatedAt) > timeOf(incoming.updatedAt)
       ) {
         return send(res, 409, {
           error: '서버에 더 최신 Blanket 상태가 있습니다.',
           state: currentState,
+          sha,
           branch: STATE_BRANCH
         });
       }
 
       const now = new Date().toISOString();
+      const revision = Math.max(0, Number(currentState?.syncMeta?.revision) || 0) + 1;
       const stateToSave = {
         ...incoming,
-        updatedAt: incoming.updatedAt || now,
+        updatedAt: now,
         syncMeta: {
           initialized: true,
           savedAt: now,
-          clientMode
+          clientMode,
+          revision
         }
       };
 
       const payload = {
-        message: `Sync Blanket state ${now}`,
+        message: `Sync Blanket state r${revision} ${now}`,
         content: encodeBase64Utf8(JSON.stringify(stateToSave, null, 2)),
         branch: STATE_BRANCH,
         ...(sha ? { sha } : {})
@@ -131,6 +145,7 @@ module.exports = async function handler(req, res) {
       return send(res, 200, {
         ok: true,
         commit: saved.commit?.sha || null,
+        sha: saved.content?.sha || null,
         state: stateToSave,
         branch: STATE_BRANCH
       });
