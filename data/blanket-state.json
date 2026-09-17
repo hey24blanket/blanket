@@ -104,7 +104,7 @@
       "url": "https://desk-70bq4c2ki-blanket2.vercel.app/prototype/hangul-papa-v5-subscriber/",
       "name": "한글파파 사용자 v5 + 보이스클로닝",
       "description": "",
-      "rating": 0
+      "rating": 3
     }
   ],
   "graph": {
@@ -252,11 +252,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:31:01.330Z",
+  "updatedAt": "2026-09-17T03:31:05.290Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:31:01.330Z",
+    "savedAt": "2026-09-17T03:31:05.290Z",
     "clientMode": "browser",
-    "revision": 6
+    "revision": 7
   }
 }
