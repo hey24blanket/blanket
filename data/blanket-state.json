@@ -108,8 +108,8 @@
     },
     {
       "id": "app-mu4z7q09-m7p2w",
-      "url": "https://desk-70bq4c2ki-blanket2.vercel.app/prototype/hangul-papa-v5-admin/",
-      "name": "한글파파 v5 + 보이스클로닝",
+      "url": "https://desk-app-git-study-experience-v2-blanket2.vercel.app/prototype/hangul-papa-v5-admin/",
+      "name": "admin_한글파파 v5 + 보이스클로닝",
       "description": "",
       "rating": 3
     }
@@ -268,11 +268,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:35:01.941Z",
+  "updatedAt": "2026-09-17T04:09:39.932Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:35:01.941Z",
+    "savedAt": "2026-09-17T04:09:39.932Z",
     "clientMode": "browser",
-    "revision": 9
+    "revision": 10
   }
 }
