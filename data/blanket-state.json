@@ -97,7 +97,7 @@
       "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v5-subscriber/",
       "name": "한글파파 사용자 v5",
       "description": "",
-      "rating": 0
+      "rating": 3
     }
   ],
   "graph": {
@@ -236,11 +236,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:20:03.530Z",
+  "updatedAt": "2026-09-17T03:20:08.214Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:20:03.530Z",
+    "savedAt": "2026-09-17T03:20:08.214Z",
     "clientMode": "browser",
-    "revision": 4
+    "revision": 5
   }
 }
