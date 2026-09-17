@@ -105,6 +105,13 @@
       "name": "한글파파 사용자 v5 + 보이스클로닝",
       "description": "",
       "rating": 3
+    },
+    {
+      "id": "app-mu4z7q09-m7p2w",
+      "url": "https://desk-70bq4c2ki-blanket2.vercel.app/prototype/hangul-papa-v5-admin/",
+      "name": "한글파파 v5 + 보이스클로닝",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -243,6 +250,15 @@
         "description": "",
         "x": 980,
         "y": 910
+      },
+      {
+        "id": "node-app-mu4z7q09-m7p2w",
+        "type": "app",
+        "appId": "app-mu4z7q09-m7p2w",
+        "title": "한글파파 v5 + 보이스클로닝",
+        "description": "",
+        "x": 1340,
+        "y": 910
       }
     ],
     "edges": [],
@@ -252,11 +268,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:31:05.290Z",
+  "updatedAt": "2026-09-17T03:34:53.991Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:31:05.290Z",
+    "savedAt": "2026-09-17T03:34:53.991Z",
     "clientMode": "browser",
-    "revision": 7
+    "revision": 8
   }
 }
