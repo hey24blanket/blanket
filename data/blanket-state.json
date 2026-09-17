@@ -56,6 +56,13 @@
       "description": "",
       "url": "https://hey24blanket.github.io/camping-menu/",
       "rating": 0
+    },
+    {
+      "id": "app-mu4y32nq-gfwid",
+      "url": "https://chunking-express-git-build-foundation-blanket2.vercel.app/",
+      "name": "청킹익스프레스",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -131,6 +138,15 @@
         "description": "",
         "x": 1340,
         "y": 450
+      },
+      {
+        "id": "node-app-mu4y32nq-gfwid",
+        "type": "app",
+        "appId": "app-mu4y32nq-gfwid",
+        "title": "청킹익스프레스",
+        "description": "",
+        "x": 260,
+        "y": 680
       }
     ],
     "edges": [],
@@ -140,10 +156,10 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:02:45.788Z",
+  "updatedAt": "2026-09-17T03:03:15.254Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:02:47.923Z",
+    "savedAt": "2026-09-17T03:03:18.048Z",
     "clientMode": "browser"
   }
 }
