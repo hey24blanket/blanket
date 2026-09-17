@@ -63,6 +63,34 @@
       "name": "청킹익스프레스",
       "description": "",
       "rating": 0
+    },
+    {
+      "id": "app-mtma8lo1-fj1ak",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v2/",
+      "name": "한글파파 v2 proto",
+      "description": "",
+      "rating": 2
+    },
+    {
+      "id": "app-mtma9vs6-hge68",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v3/",
+      "name": "한글파파 v3 proto",
+      "description": "",
+      "rating": 2
+    },
+    {
+      "id": "app-mtmmm2dk-3t9ma",
+      "url": "https://desk-app-inky.vercel.app/prototype/hangul-papa-v4/",
+      "name": "한글파파 v4 proto",
+      "description": "",
+      "rating": 2
+    },
+    {
+      "id": "app-mtuspoef-rex5s",
+      "url": "https://character-state-space.vercel.app/",
+      "name": "CSS",
+      "description": "",
+      "rating": 2
     }
   ],
   "graph": {
@@ -147,6 +175,42 @@
         "description": "",
         "x": 260,
         "y": 680
+      },
+      {
+        "id": "node-app-mtma8lo1-fj1ak",
+        "type": "app",
+        "appId": "app-mtma8lo1-fj1ak",
+        "title": "한글파파 v2 proto",
+        "description": "",
+        "x": 620,
+        "y": 680
+      },
+      {
+        "id": "node-app-mtma9vs6-hge68",
+        "type": "app",
+        "appId": "app-mtma9vs6-hge68",
+        "title": "한글파파 v3 proto",
+        "description": "",
+        "x": 980,
+        "y": 680
+      },
+      {
+        "id": "node-app-mtmmm2dk-3t9ma",
+        "type": "app",
+        "appId": "app-mtmmm2dk-3t9ma",
+        "title": "한글파파 v4 proto",
+        "description": "",
+        "x": 1340,
+        "y": 680
+      },
+      {
+        "id": "node-app-mtuspoef-rex5s",
+        "type": "app",
+        "appId": "app-mtuspoef-rex5s",
+        "title": "CSS",
+        "description": "",
+        "x": 260,
+        "y": 910
       }
     ],
     "edges": [],
@@ -156,10 +220,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T03:03:15.254Z",
+  "updatedAt": "2026-09-17T03:12:11.000Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T03:03:18.048Z",
-    "clientMode": "browser"
+    "savedAt": "2026-09-17T03:12:11.000Z",
+    "clientMode": "recovery",
+    "revision": 1
   }
 }
