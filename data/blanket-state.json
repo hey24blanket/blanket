@@ -112,6 +112,13 @@
       "name": "admin_한글파파 v5 + 보이스클로닝",
       "description": "",
       "rating": 3
+    },
+    {
+      "id": "app-muaw18em-m0bj5",
+      "url": "https://blanket-2.vercel.app/",
+      "name": "블랭킷2",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -259,6 +266,15 @@
         "description": "",
         "x": 1340,
         "y": 910
+      },
+      {
+        "id": "node-app-muaw18em-m0bj5",
+        "type": "app",
+        "appId": "app-muaw18em-m0bj5",
+        "title": "블랭킷2",
+        "description": "",
+        "x": 260,
+        "y": 1140
       }
     ],
     "edges": [],
@@ -268,11 +284,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-17T07:38:35.373Z",
+  "updatedAt": "2026-09-21T06:52:28.157Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-17T07:38:35.373Z",
-    "clientMode": "browser",
-    "revision": 13
+    "savedAt": "2026-09-21T06:52:28.157Z",
+    "clientMode": "standalone",
+    "revision": 14
   }
 }
