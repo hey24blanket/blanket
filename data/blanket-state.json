@@ -133,6 +133,13 @@
       "name": "내 공유 폴더_google Drive",
       "description": "",
       "rating": 3
+    },
+    {
+      "id": "app-muexq9f5-v4syd",
+      "url": "https://copy-board-blanket.vercel.app/",
+      "name": "복붙 매니저 · Copy Board",
+      "description": "자주 쓰는 문장·링크·프롬프트 저장과 한 번에 복사. 10개 언어, 내 기기 자동 저장·백업.",
+      "rating": 0
     }
   ],
   "graph": {
@@ -307,6 +314,15 @@
         "description": "",
         "x": 980,
         "y": 1140
+      },
+      {
+        "id": "node-app-muexq9f5-v4syd",
+        "type": "app",
+        "appId": "app-muexq9f5-v4syd",
+        "title": "복붙 매니저 · Copy Board",
+        "description": "자주 쓰는 문장·링크·프롬프트 저장과 한 번에 복사. 10개 언어, 내 기기 자동 저장·백업.",
+        "x": 1340,
+        "y": 1140
       }
     ],
     "edges": [],
@@ -316,11 +332,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T02:16:29.947Z",
+  "updatedAt": "2026-09-24T02:51:00.878Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T02:16:29.947Z",
+    "savedAt": "2026-09-24T02:51:00.878Z",
     "clientMode": "browser",
-    "revision": 19
+    "revision": 20
   }
 }
