@@ -132,7 +132,7 @@
       "url": "https://bit.ly/4at1JYO",
       "name": "내 공유 폴더_google Drive",
       "description": "",
-      "rating": 0
+      "rating": 3
     }
   ],
   "graph": {
@@ -316,11 +316,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T02:16:26.039Z",
+  "updatedAt": "2026-09-24T02:16:29.947Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T02:16:26.039Z",
+    "savedAt": "2026-09-24T02:16:29.947Z",
     "clientMode": "browser",
-    "revision": 18
+    "revision": 19
   }
 }
