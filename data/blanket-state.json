@@ -175,6 +175,13 @@
       "name": "여기",
       "description": "",
       "rating": 5
+    },
+    {
+      "id": "app-muff9knz-khb2p",
+      "url": "https://brief-flow-chi.vercel.app/",
+      "name": "브리프플로우 · BriefFlow",
+      "description": "웹디자이너의 고객 브리프. 160개 질문·재사용 폼, 전용 링크와 QR, 답변·자료·보완 관리.",
+      "rating": 0
     }
   ],
   "graph": {
@@ -403,6 +410,15 @@
         "description": "",
         "x": 260,
         "y": 1600
+      },
+      {
+        "id": "node-app-muff9knz-khb2p",
+        "type": "app",
+        "appId": "app-muff9knz-khb2p",
+        "title": "브리프플로우 · BriefFlow",
+        "description": "웹디자이너의 고객 브리프. 160개 질문·재사용 폼, 전용 링크와 QR, 답변·자료·보완 관리.",
+        "x": 620,
+        "y": 1600
       }
     ],
     "edges": [],
@@ -412,11 +428,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T07:44:48.252Z",
+  "updatedAt": "2026-09-24T11:01:54.734Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T07:44:48.252Z",
+    "savedAt": "2026-09-24T11:01:54.734Z",
     "clientMode": "browser",
-    "revision": 31
+    "revision": 32
   }
 }
