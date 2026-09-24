@@ -154,6 +154,12 @@
       "name": "BillFlow · 매입매출 장부",
       "description": "세금계산서·견적서 PDF와 사진 정리, 원본 검토, CSV·엑셀 내보내기",
       "rating": 5
+    },
+    {
+      "id": "app-muf73io9-7k5vk",
+      "url": "https://focus-route-seven.vercel.app/",
+      "name": "포커스 루트 · Focus Route",
+      "description": "작업을 단계별 노선으로 완성하는 집중 타이머. Done·Not yet, 실행 기록과 시간 보정."
     }
   ],
   "graph": {
@@ -355,6 +361,15 @@
         "description": "세금계산서·견적서 PDF와 사진 정리, 원본 검토, CSV·엑셀 내보내기",
         "x": 620,
         "y": 1370
+      },
+      {
+        "id": "node-app-muf73io9-7k5vk",
+        "type": "app",
+        "appId": "app-muf73io9-7k5vk",
+        "title": "포커스 루트 · Focus Route",
+        "description": "작업을 단계별 노선으로 완성하는 집중 타이머. Done·Not yet, 실행 기록과 시간 보정.",
+        "x": 980,
+        "y": 1370
       }
     ],
     "edges": [],
@@ -364,11 +379,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T03:24:49.321Z",
+  "updatedAt": "2026-09-24T07:13:15.321Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T03:24:49.321Z",
+    "savedAt": "2026-09-24T07:13:15.321Z",
     "clientMode": "browser",
-    "revision": 25
+    "revision": 26
   }
 }
