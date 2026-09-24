@@ -168,6 +168,13 @@
       "name": "온타임 · OnTime",
       "description": "작은 사업장의 예약 캘린더. 고객별 링크·QR, 주·월 횟수 제한, 예약 요청과 승인.",
       "rating": 5
+    },
+    {
+      "id": "app-muf87x7k-9pj7u",
+      "url": "https://blanket-delta.vercel.app/",
+      "name": "여기",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -387,6 +394,15 @@
         "description": "작은 사업장의 예약 캘린더. 고객별 링크·QR, 주·월 횟수 제한, 예약 요청과 승인.",
         "x": 1340,
         "y": 1370
+      },
+      {
+        "id": "node-app-muf87x7k-9pj7u",
+        "type": "app",
+        "appId": "app-muf87x7k-9pj7u",
+        "title": "여기",
+        "description": "",
+        "x": 260,
+        "y": 1600
       }
     ],
     "edges": [],
@@ -396,11 +412,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T07:22:35.185Z",
+  "updatedAt": "2026-09-24T07:44:41.922Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T07:22:35.185Z",
+    "savedAt": "2026-09-24T07:44:41.922Z",
     "clientMode": "browser",
-    "revision": 29
+    "revision": 30
   }
 }
