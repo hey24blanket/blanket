@@ -125,7 +125,7 @@
       "url": "https://imageto-pdf-eta.vercel.app/",
       "name": "image to PDF",
       "description": "",
-      "rating": 0
+      "rating": 3
     }
   ],
   "graph": {
@@ -300,11 +300,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T02:15:07.129Z",
+  "updatedAt": "2026-09-24T02:15:11.073Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T02:15:07.129Z",
+    "savedAt": "2026-09-24T02:15:11.073Z",
     "clientMode": "browser",
-    "revision": 16
+    "revision": 17
   }
 }
