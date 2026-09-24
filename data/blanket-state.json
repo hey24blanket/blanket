@@ -126,6 +126,13 @@
       "name": "image to PDF",
       "description": "",
       "rating": 3
+    },
+    {
+      "id": "app-muewhs8q-ud1rc",
+      "url": "https://bit.ly/4at1JYO",
+      "name": "내 공유 폴더_google Drive",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -291,6 +298,15 @@
         "description": "",
         "x": 620,
         "y": 1140
+      },
+      {
+        "id": "node-app-muewhs8q-ud1rc",
+        "type": "app",
+        "appId": "app-muewhs8q-ud1rc",
+        "title": "내 공유 폴더_google Drive",
+        "description": "",
+        "x": 980,
+        "y": 1140
       }
     ],
     "edges": [],
@@ -300,11 +316,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T02:15:11.073Z",
+  "updatedAt": "2026-09-24T02:16:26.039Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T02:15:11.073Z",
+    "savedAt": "2026-09-24T02:16:26.039Z",
     "clientMode": "browser",
-    "revision": 17
+    "revision": 18
   }
 }
