@@ -147,6 +147,13 @@
       "name": "컬러 매니저 · Color Manager",
       "description": "팔레트 관리·이미지 색상 추출·대비 검사. 10개 언어와 내 기기 자동 저장, JSON·CSS·PNG 내보내기.",
       "rating": 5
+    },
+    {
+      "id": "app-mueywnw0-k6jl9",
+      "url": "https://billflow-blanket.vercel.app/",
+      "name": "BillFlow · 매입매출 장부",
+      "description": "세금계산서·견적서 PDF와 사진 정리, 원본 검토, CSV·엑셀 내보내기",
+      "rating": 0
     }
   ],
   "graph": {
@@ -339,6 +346,15 @@
         "description": "팔레트 관리·이미지 색상 추출·대비 검사. 10개 언어와 내 기기 자동 저장, JSON·CSS·PNG 내보내기.",
         "x": 260,
         "y": 1370
+      },
+      {
+        "id": "node-app-mueywnw0-k6jl9",
+        "type": "app",
+        "appId": "app-mueywnw0-k6jl9",
+        "title": "BillFlow · 매입매출 장부",
+        "description": "세금계산서·견적서 PDF와 사진 정리, 원본 검토, CSV·엑셀 내보내기",
+        "x": 620,
+        "y": 1370
       }
     ],
     "edges": [],
@@ -348,11 +364,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T03:12:00.189Z",
+  "updatedAt": "2026-09-24T03:23:58.518Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T03:12:00.189Z",
+    "savedAt": "2026-09-24T03:23:58.518Z",
     "clientMode": "browser",
-    "revision": 23
+    "revision": 24
   }
 }
