@@ -166,7 +166,8 @@
       "id": "app-muf7eiy1-8mknx",
       "url": "https://ontime-booking.vercel.app/",
       "name": "온타임 · OnTime",
-      "description": "작은 사업장의 예약 캘린더. 고객별 링크·QR, 주·월 횟수 제한, 예약 요청과 승인."
+      "description": "작은 사업장의 예약 캘린더. 고객별 링크·QR, 주·월 횟수 제한, 예약 요청과 승인.",
+      "rating": 5
     }
   ],
   "graph": {
@@ -395,11 +396,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T07:21:49.220Z",
+  "updatedAt": "2026-09-24T07:22:35.185Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T07:21:49.220Z",
+    "savedAt": "2026-09-24T07:22:35.185Z",
     "clientMode": "browser",
-    "revision": 28
+    "revision": 29
   }
 }
