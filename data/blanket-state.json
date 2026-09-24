@@ -181,7 +181,7 @@
       "url": "https://brief-flow-chi.vercel.app/",
       "name": "브리프플로우 · BriefFlow",
       "description": "웹디자이너의 고객 브리프. 160개 질문·재사용 폼, 전용 링크와 QR, 답변·자료·보완 관리.",
-      "rating": 0
+      "rating": 5
     }
   ],
   "graph": {
@@ -428,11 +428,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T11:01:54.734Z",
+  "updatedAt": "2026-09-24T11:02:12.656Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T11:01:54.734Z",
-    "clientMode": "browser",
-    "revision": 32
+    "savedAt": "2026-09-24T11:02:12.656Z",
+    "clientMode": "manual",
+    "revision": 33
   }
 }
