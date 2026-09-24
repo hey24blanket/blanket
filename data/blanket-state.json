@@ -159,7 +159,8 @@
       "id": "app-muf73io9-7k5vk",
       "url": "https://focus-route-seven.vercel.app/",
       "name": "포커스 루트 · Focus Route",
-      "description": "작업을 단계별 노선으로 완성하는 집중 타이머. Done·Not yet, 실행 기록과 시간 보정."
+      "description": "작업을 단계별 노선으로 완성하는 집중 타이머. Done·Not yet, 실행 기록과 시간 보정.",
+      "rating": 5
     }
   ],
   "graph": {
@@ -379,11 +380,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T07:13:15.321Z",
+  "updatedAt": "2026-09-24T07:13:59.538Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T07:13:15.321Z",
+    "savedAt": "2026-09-24T07:13:59.538Z",
     "clientMode": "browser",
-    "revision": 26
+    "revision": 27
   }
 }
