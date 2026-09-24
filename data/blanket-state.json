@@ -140,6 +140,13 @@
       "name": "복붙 매니저 · Copy Board",
       "description": "자주 쓰는 문장·링크·프롬프트 저장과 한 번에 복사. 10개 언어, 내 기기 자동 저장·백업.",
       "rating": 5
+    },
+    {
+      "id": "app-mueygtic-d1sw2",
+      "url": "https://color-manager-blanket.vercel.app/",
+      "name": "컬러 매니저 · Color Manager",
+      "description": "팔레트 관리·이미지 색상 추출·대비 검사. 10개 언어와 내 기기 자동 저장, JSON·CSS·PNG 내보내기.",
+      "rating": 0
     }
   ],
   "graph": {
@@ -323,6 +330,15 @@
         "description": "자주 쓰는 문장·링크·프롬프트 저장과 한 번에 복사. 10개 언어, 내 기기 자동 저장·백업.",
         "x": 1340,
         "y": 1140
+      },
+      {
+        "id": "node-app-mueygtic-d1sw2",
+        "type": "app",
+        "appId": "app-mueygtic-d1sw2",
+        "title": "컬러 매니저 · Color Manager",
+        "description": "팔레트 관리·이미지 색상 추출·대비 검사. 10개 언어와 내 기기 자동 저장, JSON·CSS·PNG 내보내기.",
+        "x": 260,
+        "y": 1370
       }
     ],
     "edges": [],
@@ -332,11 +348,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T02:51:22.462Z",
+  "updatedAt": "2026-09-24T03:11:39.788Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T02:51:22.462Z",
+    "savedAt": "2026-09-24T03:11:39.788Z",
     "clientMode": "browser",
-    "revision": 21
+    "revision": 22
   }
 }
