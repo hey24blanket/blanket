@@ -146,7 +146,7 @@
       "url": "https://color-manager-blanket.vercel.app/",
       "name": "컬러 매니저 · Color Manager",
       "description": "팔레트 관리·이미지 색상 추출·대비 검사. 10개 언어와 내 기기 자동 저장, JSON·CSS·PNG 내보내기.",
-      "rating": 0
+      "rating": 5
     }
   ],
   "graph": {
@@ -348,11 +348,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T03:11:39.788Z",
+  "updatedAt": "2026-09-24T03:12:00.189Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T03:11:39.788Z",
+    "savedAt": "2026-09-24T03:12:00.189Z",
     "clientMode": "browser",
-    "revision": 22
+    "revision": 23
   }
 }
