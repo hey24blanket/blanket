@@ -174,7 +174,7 @@
       "url": "https://blanket-delta.vercel.app/",
       "name": "여기",
       "description": "",
-      "rating": 0
+      "rating": 5
     }
   ],
   "graph": {
@@ -412,11 +412,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-24T07:44:41.922Z",
+  "updatedAt": "2026-09-24T07:44:48.252Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-24T07:44:41.922Z",
+    "savedAt": "2026-09-24T07:44:48.252Z",
     "clientMode": "browser",
-    "revision": 30
+    "revision": 31
   }
 }
