@@ -119,6 +119,13 @@
       "name": "블랭킷2",
       "description": "",
       "rating": 3
+    },
+    {
+      "id": "app-muewg376-p2wnk",
+      "url": "https://imageto-pdf-eta.vercel.app/",
+      "name": "image to PDF",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -275,6 +282,15 @@
         "description": "",
         "x": 260,
         "y": 1140
+      },
+      {
+        "id": "node-app-muewg376-p2wnk",
+        "type": "app",
+        "appId": "app-muewg376-p2wnk",
+        "title": "image to PDF",
+        "description": "",
+        "x": 620,
+        "y": 1140
       }
     ],
     "edges": [],
@@ -284,11 +300,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-21T06:52:34.300Z",
+  "updatedAt": "2026-09-24T02:15:07.129Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-21T06:52:34.300Z",
-    "clientMode": "standalone",
-    "revision": 15
+    "savedAt": "2026-09-24T02:15:07.129Z",
+    "clientMode": "browser",
+    "revision": 16
   }
 }
