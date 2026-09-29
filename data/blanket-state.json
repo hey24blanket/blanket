@@ -195,7 +195,7 @@
       "url": "https://tarot-with-you.vercel.app/",
       "name": "타로",
       "description": "",
-      "rating": 0
+      "rating": 5
     }
   ],
   "graph": {
@@ -460,11 +460,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-29T08:40:39.301Z",
+  "updatedAt": "2026-09-29T08:40:44.932Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-29T08:40:39.301Z",
+    "savedAt": "2026-09-29T08:40:44.932Z",
     "clientMode": "browser",
-    "revision": 37
+    "revision": 38
   }
 }
