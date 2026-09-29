@@ -444,11 +444,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-29T00:08:19.791Z",
+  "updatedAt": "2026-09-29T07:16:01.642Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-29T00:08:19.791Z",
-    "clientMode": "standalone",
-    "revision": 35
+    "savedAt": "2026-09-29T07:16:01.642Z",
+    "clientMode": "browser",
+    "revision": 36
   }
 }
