@@ -189,6 +189,13 @@
       "name": "Markov",
       "description": "",
       "rating": 5
+    },
+    {
+      "id": "app-mumff51l-y01jh",
+      "url": "https://tarot-with-you.vercel.app/",
+      "name": "타로",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -435,6 +442,15 @@
         "description": "",
         "x": 980,
         "y": 1600
+      },
+      {
+        "id": "node-app-mumff51l-y01jh",
+        "type": "app",
+        "appId": "app-mumff51l-y01jh",
+        "title": "타로",
+        "description": "",
+        "x": 1340,
+        "y": 1600
       }
     ],
     "edges": [],
@@ -444,11 +460,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-29T07:16:01.642Z",
+  "updatedAt": "2026-09-29T08:40:39.301Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-29T07:16:01.642Z",
+    "savedAt": "2026-09-29T08:40:39.301Z",
     "clientMode": "browser",
-    "revision": 36
+    "revision": 37
   }
 }
