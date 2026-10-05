@@ -476,11 +476,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-10-05T03:02:53.492Z",
+  "updatedAt": "2026-10-05T05:23:13.799Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-10-05T03:02:53.492Z",
-    "clientMode": "browser",
-    "revision": 39
+    "savedAt": "2026-10-05T05:23:13.799Z",
+    "clientMode": "manual",
+    "revision": 40
   }
 }
