@@ -210,6 +210,13 @@
       "name": "",
       "description": "",
       "rating": 1
+    },
+    {
+      "id": "app-muut8sux-5ar07",
+      "url": "https://private-cube.vercel.app/#cube=13a8fca10f00471c82b634cf80dc4b91.3pOgXXxu2sbGPWikZXQ4GWvtxuHJUF21SwVNJr_KqVw",
+      "name": "큐브초대",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -483,6 +490,15 @@
         "description": "",
         "x": 620,
         "y": 1830
+      },
+      {
+        "id": "node-app-muut8sux-5ar07",
+        "type": "app",
+        "appId": "app-muut8sux-5ar07",
+        "title": "큐브초대",
+        "description": "",
+        "x": 980,
+        "y": 1830
       }
     ],
     "edges": [],
@@ -492,11 +508,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-10-05T05:23:47.055Z",
+  "updatedAt": "2026-10-05T05:29:45.983Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-10-05T05:23:47.055Z",
+    "savedAt": "2026-10-05T05:29:45.983Z",
     "clientMode": "standalone",
-    "revision": 42
+    "revision": 43
   }
 }
