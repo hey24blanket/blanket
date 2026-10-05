@@ -196,6 +196,13 @@
       "name": "타로",
       "description": "",
       "rating": 5
+    },
+    {
+      "id": "app-muunzw7g-dgui4",
+      "url": "https://seobu-driving.vercel.app/",
+      "name": "서부면허_기능시험",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -451,6 +458,15 @@
         "description": "",
         "x": 1340,
         "y": 1600
+      },
+      {
+        "id": "node-app-muunzw7g-dgui4",
+        "type": "app",
+        "appId": "app-muunzw7g-dgui4",
+        "title": "서부면허_기능시험",
+        "description": "",
+        "x": 260,
+        "y": 1830
       }
     ],
     "edges": [],
@@ -460,11 +476,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-09-29T08:40:44.932Z",
+  "updatedAt": "2026-10-05T03:02:53.492Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-09-29T08:40:44.932Z",
+    "savedAt": "2026-10-05T03:02:53.492Z",
     "clientMode": "browser",
-    "revision": 38
+    "revision": 39
   }
 }
