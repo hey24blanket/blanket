@@ -203,6 +203,13 @@
       "name": "서부면허_기능시험",
       "description": "",
       "rating": 0
+    },
+    {
+      "id": "app-muut0v8h-tic0d",
+      "url": "https://private-cube.vercel.app/#cube=13a8fca10f00471c82b634cf80dc4b91.3pOgXXxu2sbGPWikZXQ4GWvtxuHJUF21SwVNJr_KqVw",
+      "name": "",
+      "description": "",
+      "rating": 0
     }
   ],
   "graph": {
@@ -467,6 +474,15 @@
         "description": "",
         "x": 260,
         "y": 1830
+      },
+      {
+        "id": "node-app-muut0v8h-tic0d",
+        "type": "app",
+        "appId": "app-muut0v8h-tic0d",
+        "title": "private cube",
+        "description": "",
+        "x": 620,
+        "y": 1830
       }
     ],
     "edges": [],
@@ -476,11 +492,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-10-05T05:23:13.799Z",
+  "updatedAt": "2026-10-05T05:23:35.958Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-10-05T05:23:13.799Z",
-    "clientMode": "manual",
-    "revision": 40
+    "savedAt": "2026-10-05T05:23:35.958Z",
+    "clientMode": "standalone",
+    "revision": 41
   }
 }
