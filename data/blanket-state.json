@@ -132,7 +132,7 @@
       "url": "https://bit.ly/4at1JYO",
       "name": "내 공유 폴더_google Drive",
       "description": "",
-      "rating": 3
+      "rating": 5
     },
     {
       "id": "app-muexq9f5-v4syd",
@@ -508,11 +508,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-10-05T05:29:49.589Z",
+  "updatedAt": "2026-10-25T11:34:56.219Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-10-05T05:29:49.589Z",
+    "savedAt": "2026-10-25T11:34:56.219Z",
     "clientMode": "standalone",
-    "revision": 44
+    "revision": 45
   }
 }
