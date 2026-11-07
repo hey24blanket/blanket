@@ -118,7 +118,7 @@
       "url": "https://blanket-2.vercel.app/",
       "name": "블랭킷2",
       "description": "",
-      "rating": 3
+      "rating": 5
     },
     {
       "id": "app-muewg376-p2wnk",
@@ -508,11 +508,11 @@
       "scale": 1
     }
   },
-  "updatedAt": "2026-10-25T11:35:04.437Z",
+  "updatedAt": "2026-11-07T06:22:22.852Z",
   "syncMeta": {
     "initialized": true,
-    "savedAt": "2026-10-25T11:35:04.437Z",
-    "clientMode": "standalone",
-    "revision": 46
+    "savedAt": "2026-11-07T06:22:22.852Z",
+    "clientMode": "browser",
+    "revision": 47
   }
 }
